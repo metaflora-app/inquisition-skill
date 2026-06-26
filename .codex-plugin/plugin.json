@@ -1,0 +1,28 @@
+{
+  "name": "metaflora-inquisition",
+  "version": "0.1.0",
+  "description": "Pressure-testing fact-check skill for claims, statistics, quotes, benchmarks, forecasts, and AI outputs.",
+  "author": {
+    "name": "Metaflora"
+  },
+  "homepage": "https://github.com/metaflora-app/metaflora-inquisition",
+  "repository": "https://github.com/metaflora-app/metaflora-inquisition",
+  "license": "MIT",
+  "keywords": ["fact-checking", "verification", "research", "ai-agents"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Metaflora Inquisition",
+    "shortDescription": "claim verification under pressure",
+    "longDescription": "Metaflora Inquisition runs claims through Admonitio, three independent checks, tribunal decision, optional targeted Tortura, and a final Bulla verdict.",
+    "developerName": "Metaflora",
+    "category": "Productivity",
+    "capabilities": ["Instructions", "Research workflow", "Fact-checking"],
+    "defaultPrompt": [
+      "/inquisition: Reels с субтитрами получают на 40% больше охвата",
+      "инквизиция: Claude лучше GPT-4o для кодинга",
+      "проверь под давлением: этот benchmark доказывает, что модель X лучшая"
+    ],
+    "brandColor": "#111111"
+  }
+}
+

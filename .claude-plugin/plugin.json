@@ -1,0 +1,9 @@
+{
+  "name": "metaflora-inquisition",
+  "version": "0.1.0",
+  "description": "Pressure-testing fact-check skill for claims, statistics, quotes, benchmarks, forecasts, and AI outputs.",
+  "author": {
+    "name": "Metaflora"
+  }
+}
+
