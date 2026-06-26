@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test tests/*.test.js",
     "checksums": "shasum -a 256 dist/metaflora-inquisition.skill assets/*.png skills/metaflora-inquisition/SKILL.md > docs/checksums.txt",
+    "bundle:checksum": "shasum -a 256 dist/metaflora-inquisition-release-v0.1.0.zip > docs/release-bundle.sha256",
     "pack:zip": "zip -r dist/metaflora-inquisition-release-v0.1.0.zip README.md LICENSE package.json .codex-plugin .claude-plugin assets docs skills tests dist/metaflora-inquisition.skill"
   },
   "keywords": [
@@ -20,4 +21,3 @@
     "skills"
   ]
 }
-
